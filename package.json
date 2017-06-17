@@ -2,7 +2,7 @@
   "name": "homes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://homes-minecraftservermod.github.io/",
+  "homepage": "https://homes-minecraftservermod.github.io/HomesPages/",
   "dependencies": {
     "elemental": "^0.6.1",
     "material-ui": "^0.17.1",
