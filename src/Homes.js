@@ -7,13 +7,15 @@ import {Grid, PageHeader, ButtonGroup, Button, Row, Col} from 'react-bootstrap';
 export const Homes = React.createClass({
     render() {
         return (<div><Grid>
-            <PageHeader>Homes</PageHeader>
 
-            <ButtonGroup justified>
-                <Button href="https://dev.bukkit.org/projects/homes-teleportation-plugin">Bukkit</Button>
-                <Button href="https://www.spigotmc.org/resources/homes-teleportation-plugin.36871/">Spigot</Button>
-                <Button href="https://github.com/Homes-MinecraftServerMod/Homes">GitHub</Button>
-            </ButtonGroup>
+            <Row className="show-grid"><Col md={12}>
+                <PageHeader>Homes</PageHeader>
+                <ButtonGroup justified>
+                    <Button href="https://dev.bukkit.org/projects/homes-teleportation-plugin">Bukkit</Button>
+                    <Button href="https://www.spigotmc.org/resources/homes-teleportation-plugin.36871/">Spigot</Button>
+                    <Button href="https://github.com/Homes-MinecraftServerMod/Homes">GitHub</Button>
+                </ButtonGroup>
+            </Col></Row>
 
             <Row className="show-grid"><Col md={6}>
                 <PageHeader><h2>About</h2></PageHeader>
