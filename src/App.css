@@ -48,3 +48,7 @@
 button.close {
     color: white;
 }
+
+.panel {
+    margin-top: 10px;
+}

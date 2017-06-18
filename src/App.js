@@ -21,7 +21,7 @@ class App extends Component {
                         <Navbar.Brand>
                             <a onClick={() => {
                                 this.setState({page: (<Homes />)})
-                            }}>Homes</a>
+                            }}>HomesPages</a>
                         </Navbar.Brand>
                         <Navbar.Toggle />
                     </Navbar.Header>
@@ -30,9 +30,6 @@ class App extends Component {
                             <NavItem onClick={() => {
                                 this.setState({page: (<Command />)})
                             }}>Command</NavItem>
-                            <NavItem onClick={() => {
-                                this.setState({page: (<h1>Permission</h1>)})
-                            }}>Permission</NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

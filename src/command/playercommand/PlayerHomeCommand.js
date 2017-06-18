@@ -18,6 +18,7 @@ export const PlayerHomeCommand = React.createClass({
                 <Modal.Header closeButton id="list-header">
                     <Modal.Title>Home Command</Modal.Title>
                 </Modal.Header>
+
                 <Modal.Body>
                     <p>You can teleport to the preset Home by using this command.</p>
                     <Accordion>
