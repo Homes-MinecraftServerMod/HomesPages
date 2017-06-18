@@ -22,8 +22,11 @@ export const Command = React.createClass({
     render() {
         return (<div>{this.state.overlay}<Grid>
             <PageHeader><h2>Command</h2></PageHeader>
-            <p>This is a list of commands that can be used with this plugin. You can check the details of the command by
-                clicking the button. There are two types of commands: Player Command and Console Command.</p>
+            <Row className="show-grid"><Col md={6}>
+                <p>This is a list of commands that can be used with this plugin. You can check the details of the
+                    command by clicking the button. There are two types of commands: Player Command and Console
+                    Command.</p>
+            </Col></Row>
             <Row className="show-grid">
                 <Col md={6}><Panel header="Player Commands" bsStyle="info">
 
