@@ -4,6 +4,8 @@ This is a list of commands that can be used with this plugin. You can check the 
 
 ## Player Commands
 
+Player Command is a command the player can use in the game.
+
 | Command | Description |
 | :------ | :---------- |
 | [Home Command](./player/home.md) | Teleport to your home |
@@ -16,6 +18,8 @@ This is a list of commands that can be used with this plugin. You can check the 
 | [Reload Command](./player/reload.md) | Reload this plugin |
 
 ## Console Commands
+
+Console Command is a command the server administrator can use from the console.
 
 | Command | Description |
 | :------ | :---------- |
